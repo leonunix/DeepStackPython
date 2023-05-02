@@ -7,7 +7,7 @@ setup(name= "deepstack-sdk",
       author='John Olafenwa and Moses Olafenwa',
       license='MIT',
       packages= find_packages(),
-      install_requires=['pillow','opencv-python','matplotlib',"requests","pytest","validators"],
+      install_requires=['pillow','opencv-python-headless','matplotlib',"requests","pytest","validators"],
       zip_safe=False,
       classifiers=[
         "Programming Language :: Python :: 3",
